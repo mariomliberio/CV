@@ -25,7 +25,7 @@ h2{
 
 }
 .section{
-  background-color: lightyellow;
+ display: grid | inline-grid | subgrid;
 
 }
 
@@ -38,5 +38,55 @@ h2{
 }
 
 .photo{
+
+}
+
+.sec-right{
+text-align: left;
+
+}
+
+.sec-left{
+
+font-style: italic;
+font-weight: bold;
+font-size: 18px;
+text-align: right;
+padding: 0 25px 0 0;
+width: 150px;
+float: left;
+height: 150px;
+border-right: 1px
+solid #999;
+}
+
+.dates{
+
+
+}
+
+.language{
+
+
+}
+
+.time{
+
+}
+
+.Studies{
+
+}
+
+#languages{
+
+
+}
+
+#dates{
+
+}
+
+#Studies{
 
 }
