@@ -15,8 +15,11 @@ p{
 h2{
 font-size: 28px;
 text-transform: uppercase;
-border-bottom: 5px;
+border-bottom: 3px;
 color: #4F72ED;
+border-style: dotted;
+
+
 
 
 }
@@ -56,7 +59,8 @@ float: right;
 
 .sec-right{
 margin-left: 130px;
-margin-top: 72px;
+margin-top: 41px;
+padding-left: 80px;
 
 }
 
@@ -64,7 +68,7 @@ margin-top: 72px;
 float: left;
 font-weight: bold;
 font-size: 15px;
-margin-top: 32px;
+margin-top: px;
 
 }
 
@@ -88,14 +92,20 @@ font-size: 16px;
 
 }
 
+.clear {
+  clear:both;
+}
+
 #languages{
 font-size: 20px;
+
 
 }
 
 #dates{
 font-size: 18px;
 margin-bottom: 40px;
+margin
 }
 
 #Studies{
