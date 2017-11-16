@@ -25,10 +25,14 @@ border-style: dotted;
 }
 
 .page{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
   margin-left: auto;
   margin-left: auto;
   margin-right: auto;
-  width:750px;
+  width:1200px;
   font-family: 'Andale Mono', Arial,cursive;
   overflow: auto;
   margin: auto;
@@ -41,34 +45,32 @@ border-style: dotted;
 }
 
 .section{
-margin-bottom: 80px;
+
 }
 
 .infophoto{
-  height: 250px;
+  height: 50px;
 
 }
 
 .info{
-float: left;
+
 }
 
 .photo{
-float: right;
+
 }
 
 .sec-right{
-margin-left: 130px;
-margin-top: 41px;
-padding-left: 80px;
+
 
 }
 
 .sec-left{
-float: left;
+
 font-weight: bold;
 font-size: 15px;
-margin-top: px;
+
 
 }
 
@@ -104,30 +106,20 @@ font-size: 20px;
 
 #dates{
 font-size: 18px;
-margin-bottom: 40px;
-margin
+
 }
 
 #Studies{
 
 }
 
-#hobby{
-
+#reply{
+text-align:right;
 
 }
 
 #title{
 font-weight: bold;
 font-size: 20px;
-
-}
-
-#langlevel{
-
-
-}
-
-#prvwork{
 
 }
