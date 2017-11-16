@@ -13,7 +13,7 @@ p{
 }
 
 h2{
-font-size: 28px;
+font-size: 22px;
 text-transform: uppercase;
 border-bottom: 3px;
 color: #4F72ED;
@@ -26,7 +26,7 @@ border-style: dotted;
 
 .page{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   margin-left: auto;
@@ -98,28 +98,43 @@ font-size: 16px;
   clear:both;
 }
 
-#languages{
-font-size: 20px;
+#one {
+
+}
+
+#two {
+text-align: left;
 
 
 }
 
-#dates{
-font-size: 18px;
+#three {
+text-align: left;
+padding-left: 10px ;
+padding-right: 15px ;
+}
+
+#four {
 
 }
 
-#Studies{
+#five {
+text-align: left;
+}
 
+#pro {
+padding-right:;
 }
 
 #reply{
-text-align:right;
+text-align:center;
+text-indent: inherit;
+
 
 }
 
 #title{
 font-weight: bold;
-font-size: 20px;
+font-size: 16px;
 
 }
