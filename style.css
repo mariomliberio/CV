@@ -28,7 +28,7 @@ border-style: dotted;
   display:grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
   margin-left: auto;
   margin-left: auto;
   margin-right: auto;
